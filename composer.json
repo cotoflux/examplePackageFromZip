@@ -1,0 +1,24 @@
+{
+	"require": {
+	  "cotoflux/randomnum": "dev-master"
+	},
+	"repositories": [
+	  {
+		"type": "package",
+		"package": {
+		  "name": "cotoflux/randomnum",
+		  "version": "master",
+		  "dist": {
+			"type": "zip",
+			"url": "./testComposer.zip",
+			"reference": "master"
+		  },
+		  "autoload": {
+			"classmap": [
+			  "."
+			]
+		  }
+		}
+	  }
+	]
+  }

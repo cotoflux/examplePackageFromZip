@@ -1,0 +1,19 @@
+[
+    {
+        "name": "cotoflux/randomnum",
+        "version": "master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "zip",
+            "url": "./testComposer.zip",
+            "reference": "master"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        }
+    }
+]
